@@ -1,7 +1,7 @@
 from StringIO import StringIO
 
 import structlog
-from pyyacp import yacp
+import pyyacp as yacp
 import codecs
 import os
 import csv

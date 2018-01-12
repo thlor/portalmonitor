@@ -1,4 +1,4 @@
-from portalwatch:latest
+FROM portalwatch:latest
 
 RUN git pull; pip install -r requirements.txt; python setup.py install
 

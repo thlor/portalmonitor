@@ -1,3 +1,3 @@
-from kiasaki/alpine-postgres:latest
+FROM kiasaki/alpine-postgres:9.4
 ADD init.sql /docker-entrypoint-initdb.d/
 EXPOSE 5432

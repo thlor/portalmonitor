@@ -7,7 +7,7 @@ import datetime
 
 import requests
 import structlog
-from pyyacp import yacp
+import pyyacp as yacp
 
 import rdflib
 from rdflib import URIRef, BNode, Literal

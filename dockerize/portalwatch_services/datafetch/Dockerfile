@@ -1,4 +1,4 @@
-from portalwatch:latest
+FROM portalwatch:latest
 
 ENV SCRIPT datafetch.sh
 ENV GIT_SCRIPT gitpusher.sh

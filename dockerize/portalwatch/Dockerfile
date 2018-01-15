@@ -26,7 +26,7 @@ ENV DATADIR /datadir
 RUN mkdir -p $INSTALL_PATH $LOGS $DATADIR
 
 WORKDIR $INSTALL_PATH
-RUN git clone https://github.com/ADEQUATeDQ/portalmonitor.git portalmonitor
+RUN git clone https://github.com/thlor/portalmonitor.git
 ENV ADEQUATE $INSTALL_PATH/portalmonitor
 WORKDIR $ADEQUATE
 

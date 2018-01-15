@@ -7,7 +7,7 @@
 # database setup
 - create a user for your database (eg. opendataportalwatch)
 
-`sudo -u postgres psql opendataportalwatch`
+`sudo -u postgres createuser opendataportalwatch`
 
 - create a database (eg. opendataportalwatchdb)
 
